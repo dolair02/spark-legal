@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spark – Modern Dating, Real Chemistry & Squad Dates</title>
+  <meta name="description" content="Ignite real connections with Spark. Match with chemistry, Spotify music taste, Zodiac alignment, and squad double dating.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #09090b;
+      --card: #18181b;
+      --primary: #ec4899;
+      --primary-gradient: linear-gradient(135deg, #ec4899 0%, #8b5cf6 50%, #06b6d4 100%);
+      --text: #f4f4f5;
+      --muted: #a1a1aa;
+      --border: #27272a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 20px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.5rem;
+      font-weight: 800;
+      background: var(--primary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #fff; }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(236, 72, 153, 0.15);
+      border: 1px solid rgba(236, 72, 153, 0.3);
+      border-radius: 9999px;
+      color: #f472b6;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 24px;
+    }
+    h1 span {
+      background: var(--primary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      font-size: 1.25rem;
+      color: var(--muted);
+      max-width: 680px;
+      margin: 0 auto 36px;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--primary-gradient);
+      color: #fff;
+      padding: 16px 36px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(236, 72, 153, 0.35);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 40px rgba(236, 72, 153, 0.5);
+    }
+    .features {
+      max-width: 1200px;
+      margin: 60px auto 100px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .feature-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      transition: border-color 0.2s;
+    }
+    .feature-card:hover {
+      border-color: #ec4899;
+    }
+    .feature-icon {
+      font-size: 2.2rem;
+      margin-bottom: 16px;
+    }
+    .feature-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .feature-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+      margin: 0 12px;
+    }
+    footer a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">⚡ SPARK</a>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge">🔥 Next-Generation Dating</div>
+      <h1>Ignite Connections With <span>Real Chemistry</span></h1>
+      <p class="subtitle">Experience modern dating built around Spotify music compatibility, celestial zodiac synergy, AI wingman date spots, and squad double dates.</p>
+      <a href="https://apps.apple.com" class="cta-btn">Download on App Store</a>
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <div class="feature-icon">🔥</div>
+        <h3>Gesture Swiping</h3>
+        <p>Effortlessly discover verified singles nearby with chemistry match scores and witty icebreakers.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎵</div>
+        <h3>Spotify Music Synced</h3>
+        <p>Preview top anthems and find matches who vibe to the same artists and musical genres.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👥</div>
+        <h3>Squad Double Dating</h3>
+        <p>Team up with your best friend and match with other duo squads for fun, relaxed group outings.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✨</div>
+        <h3>Zodiac & Cosmic Synergy</h3>
+        <p>Explore celestial harmony ratings and planetary element alignment with prospective partners.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <h3>AI Wingman & Date Spots</h3>
+        <p>Get personalized conversation openers, date icebreakers, and curated local cocktail lounge spots.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <h3>Date Safety Shield</h3>
+        <p>Discreet fake call simulation and safe check-in tools built directly into your active date dashboard.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Spark Dating. All rights reserved.</p>
+    <p style="margin-top: 10px;">
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms of Service (EULA)</a> | 
+      <a href="support.html">Support & Help Center</a>
+    </p>
+  </footer>
+</body>
+</html>
